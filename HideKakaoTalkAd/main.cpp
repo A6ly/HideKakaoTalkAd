@@ -6,7 +6,7 @@ int main() {
 	HWND KakaoMain, KakaoAd, KakaoChildWnd;
 	RECT Rect;
 
-	KakaoMain = FindWindow(NULL, TEXT("Ä«Ä«¿ÀÅå"));
+	KakaoMain = FindWindow(NULL, TEXT("ì¹´ì¹´ì˜¤í†¡"));
 	KakaoAd = FindWindowEx(KakaoMain, NULL, "EVA_Window", NULL);
 	KakaoChildWnd = FindWindowEx(KakaoMain, NULL, "EVA_ChildWindow", NULL);
 
