@@ -1,5 +1,5 @@
 # HideKakaoTalkAd
 
-![ad](https://user-images.githubusercontent.com/32415358/54832026-c4e11400-4cfe-11e9-9a83-bd31ca4ce674.PNG)
-![hide](https://user-images.githubusercontent.com/32415358/54832030-c6124100-4cfe-11e9-89ef-3fd4c13a6590.PNG)
+![ad](https://user-images.githubusercontent.com/32415358/54832120-ec37e100-4cfe-11e9-8b77-cca1b53e82c9.PNG)
+![hide](https://user-images.githubusercontent.com/32415358/54832124-ec37e100-4cfe-11e9-878a-71ed94cc018e.PNG)
 
