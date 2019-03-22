@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28714.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HideKakaoTalkAd", "HideKakaoTalkAd\HideKakaoTalkAd.vcxproj", "{50E5A5F3-ED5A-464E-89AC-C9386912E36B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50E5A5F3-ED5A-464E-89AC-C9386912E36B}.Debug|x64.ActiveCfg = Debug|x64
+		{50E5A5F3-ED5A-464E-89AC-C9386912E36B}.Debug|x64.Build.0 = Debug|x64
+		{50E5A5F3-ED5A-464E-89AC-C9386912E36B}.Debug|x86.ActiveCfg = Debug|Win32
+		{50E5A5F3-ED5A-464E-89AC-C9386912E36B}.Debug|x86.Build.0 = Debug|Win32
+		{50E5A5F3-ED5A-464E-89AC-C9386912E36B}.Release|x64.ActiveCfg = Release|x64
+		{50E5A5F3-ED5A-464E-89AC-C9386912E36B}.Release|x64.Build.0 = Release|x64
+		{50E5A5F3-ED5A-464E-89AC-C9386912E36B}.Release|x86.ActiveCfg = Release|Win32
+		{50E5A5F3-ED5A-464E-89AC-C9386912E36B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B073DE3-0892-4E10-BE5D-9CA4F069F828}
+	EndGlobalSection
+EndGlobal
