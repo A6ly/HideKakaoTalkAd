@@ -6,7 +6,7 @@ int main() {
 	HWND KakaoMain, KakaoAd, KakaoChildWnd;
 	RECT Rect;
 
-	KakaoMain = FindWindow(NULL, TEXT("ì¹´ì¹´ì˜¤í†¡"));
+	KakaoMain = FindWindow(NULL, TEXT("Ä«Ä«¿ÀÅå"));
 	KakaoAd = FindWindowEx(KakaoMain, NULL, "EVA_Window", NULL);
 	KakaoChildWnd = FindWindowEx(KakaoMain, NULL, "EVA_ChildWindow", NULL);
 
@@ -14,7 +14,9 @@ int main() {
 	SetWindowPos(KakaoAd, NULL, NULL, NULL, NULL, NULL, SWP_NOACTIVATE);
 	SetWindowPos(KakaoChildWnd, HWND_BOTTOM, NULL, NULL, (Rect.right - Rect.left - 2), (Rect.bottom - Rect.top - 33), SWP_NOMOVE);
 
-	printf("Hide KakaoTalk Ad!\n");
+	printf("¢¾Hide KakaoTalk Ad!¢¾\n");
+	printf("¡ØIf the ad doesn't get erased, please run it one more time.¡Ø\n");
+	system("pause");
 
 	return 0;
 }
