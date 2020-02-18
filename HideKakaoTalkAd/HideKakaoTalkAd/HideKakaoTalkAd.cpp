@@ -8,7 +8,7 @@ HideKakaoTalkAd::HideKakaoTalkAd(QWidget *parent)
 	int width = 345, height = 205;
 
 	ui.setupUi(this);
-	setFixedSize(345, 205);
+	setFixedSize(345, 225);
 
 	connect(ui.HideAdButton, SIGNAL(clicked()), this, SLOT(HideAdButtonClicked()));
 }
