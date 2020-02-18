@@ -1,7 +1,7 @@
 # HideKakaoTalkAd
 
 - Hide Ad Window Class of Kakao Talk out of sight
-- Use QT library<br>
+- Use Q library<br>
 <br>
 
 ![ui](https://user-images.githubusercontent.com/32415358/74697530-4d817080-523e-11ea-92f3-34522c596d7d.PNG)<br>
