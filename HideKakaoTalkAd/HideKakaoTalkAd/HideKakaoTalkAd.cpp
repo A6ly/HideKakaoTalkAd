@@ -5,7 +5,6 @@
 HideKakaoTalkAd::HideKakaoTalkAd(QWidget *parent)
 	: QMainWindow(parent)
 {
-	int width = 345, height = 205;
 
 	ui.setupUi(this);
 	setFixedSize(345, 225);
