@@ -16,7 +16,7 @@ HWND KakaoMain, KakaoAd, KakaoChildWnd;
 RECT Rect;
 
 void HideKakaoTalkAd::HideAdButtonClicked() {
-	KakaoMain = FindWindow(NULL, TEXT("Ä«Ä«¿ÀÅå"));
+	KakaoMain = FindWindow(NULL, TEXT("ì¹´ì¹´ì˜¤í†¡"));
 	KakaoAd = FindWindowEx(KakaoMain, NULL, L"EVA_Window", NULL);
 	KakaoChildWnd = FindWindowEx(KakaoMain, NULL, L"EVA_ChildWindow", NULL);
 
