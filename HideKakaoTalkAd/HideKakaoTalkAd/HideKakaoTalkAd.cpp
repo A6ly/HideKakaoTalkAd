@@ -28,7 +28,7 @@ void HideKakaoTalkAd::HideAdButtonClicked() {
 	if (MsgBox.exec() == QMessageBox::Ok) {
 		GetWindowRect(KakaoMain, &Rect);
 		SetWindowPos(KakaoAd, NULL, NULL, NULL, NULL, NULL, SWP_NOACTIVATE);
-		SetWindowPos(KakaoChildWnd, HWND_BOTTOM, NULL, NULL, (Rect.right - Rect.left - 2), (Rect.bottom - Rect.top - 33), SWP_NOMOVE);
+		SetWindowPos(KakaoChildWnd, HWND_BOTTOM, NULL, NULL, (Rect.right - Rect.left - 2), (Rect.bottom - Rect.top - 30), SWP_NOMOVE);
 
 		this->close();
 	}
