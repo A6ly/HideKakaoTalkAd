@@ -17,7 +17,7 @@ RECT Rect;
 
 void HideKakaoTalkAd::HideAdButtonClicked() {
 	KakaoMain = FindWindow(NULL, TEXT("카카오톡"));
-	KakaoAd = FindWindowEx(KakaoMain, NULL, L"EVA_Window", NULL);
+	KakaoAd = FindWindowEx(KakaoMain, NULL, L"BannerAdWnd", NULL);
 	KakaoChildWnd = FindWindowEx(KakaoMain, NULL, L"EVA_ChildWindow", NULL);
 
 	QMessageBox MsgBox;
